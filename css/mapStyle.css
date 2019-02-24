@@ -1,0 +1,62 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0 0 8px 0;
+}
+.logo-central{
+  height: 50px;
+  width: auto;
+  padding: 0 0 8px 0;
+}
+#ltMap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+  vertical-align: middle;
+  margin: 0;
+  overflow: hidden;
+  margin: auto;
+}
+#ltMap svg {
+  display: inline-block;
+  position: absolute;
+  top: 0; left: 0;
+}
+polygon:hover{
+  opacity: 0.2;
+}
+figure svg{
+  margin: auto;
+}
+.svg-content {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+polygon{
+  opacity: 1;
+  border: 2px solid black;
+  stroke: black;
+  stroke-width: 1;
+  fill: white;
+}
+.map-container{
+  margin: auto;
+  max-width: 900px;
+}
+.navbar-text-dark{
+  color: black;
+}

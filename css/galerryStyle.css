@@ -1,0 +1,24 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.imageBox{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.fotke{
+  margin: 4px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.breadcrumb{
+  padding-left: 20px;
+  color: black;
+}
+.breadcrumb:last-child{
+  color: darkgrey;
+}
+.breadcrumb:before{
+  display: none
+}
